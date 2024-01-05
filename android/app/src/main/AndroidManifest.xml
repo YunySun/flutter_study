@@ -30,4 +30,7 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+
+    <!-- 确保你的应用拥有从网络中获取权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
